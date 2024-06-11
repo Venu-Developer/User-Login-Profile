@@ -27,6 +27,27 @@ function App() {
   let [showPassword, setShowPassword] = useState(false);
   let [showConformPassword, setShowConformPassword] = useState(false);
 
+  // let [editingDetails,setEditingDetails]=useState(0)
+
+  // const [errorMessage,setErrorMessage]=useState({
+  //   passwordError:"",
+  //   emailError:"",
+  //   userNameError:"",
+  //   passwordLengthError:""
+  // })
+  // const [userName,setUserName]=useState('');
+  // const [email,setEmail]=useState('');
+  // const [password,setPassword]=useState('');
+  // const [conformPassword,setConformPassword]=useState('');
+  // const [domain,setDomain]=useState("")
+  // const [gender,setGender]=useState("")
+  //updating values
+  // let [passwordError,setPasswordError]=useState("")
+  // let [emailError,setEmailError]=useState("")
+  // let [userNameError,setUserNameError]=useState("")
+  // let [passwordLengthError,setPasswordLengthError]=useState("")
+  //checking user input give correct formate
+
   ////function to check email
 
   function checkEmail(emailAddress) {
